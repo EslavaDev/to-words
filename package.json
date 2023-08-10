@@ -1,6 +1,6 @@
 {
-  "name": "to-words",
-  "version": "3.6.1",
+  "name": "to-words-lt",
+  "version": "2.0.0",
   "description": "Converts numbers (including decimal points) into words & currency.",
   "keywords": [
     "to words",
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mastermunj/to-words.git"
+    "url": "https://github.com/EslavaDev/to-words.git"
   },
   "license": "MIT",
   "author": "Munjal Dhamecha",

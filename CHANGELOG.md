@@ -2,6 +2,60 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 2.0.0 (2023-08-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* Rewrote the core into Typescript.
+
+feat: added options ignoreDecimal, ignoreZeroCurrency
+
+feat: added provision for i18n, currently supports en-IN (default) and en-US
+
+fix: wrong conversion of fractional unit beginning with zero
+
+docs: updated README
+
+test: added unit tests with jest
+
+fix: fixed isValidNumber
+
+docs: added CHANGELOG.md
+
+### Features
+
+* add Mauritius English locale ([cead7b4](https://github.com/EslavaDev/to-words/commit/cead7b42b106c06404f8c7ef21f28262f353aa66))
+* add support for en-MM ([b48eade](https://github.com/EslavaDev/to-words/commit/b48eade05b0b0272443ecf89acf6004c0d3f18aa))
+* add support for only text to be in front of number words ([e96ca2f](https://github.com/EslavaDev/to-words/commit/e96ca2fcd80f2366723b7ad43f8ecc8c046355c9))
+* allow overriding currency details per conversion ([380831e](https://github.com/EslavaDev/to-words/commit/380831e7e8e07e7537db0351fba1906e328e2ee8))
+* **GB:** added tests for GB support ([b9f488f](https://github.com/EslavaDev/to-words/commit/b9f488f6fd787666c3f164db834763d76cdbca09))
+* improve .gitignore ([2e406d9](https://github.com/EslavaDev/to-words/commit/2e406d90ced857b9c73cbff98c810172c26e9dd4))
+* **language:** added support for dutch nl-SR language and currency ([#805](https://github.com/EslavaDev/to-words/issues/805)) ([4ac84c3](https://github.com/EslavaDev/to-words/commit/4ac84c3c53093838b8787c0f3d1749c127204d9f))
+* **locale:** add estonian (ee-EE) language support ([df44a3f](https://github.com/EslavaDev/to-words/commit/df44a3f4d456edd83363393524a8a4e01e21bfef))
+* **locale:** add support for en-NP locale ([c66759a](https://github.com/EslavaDev/to-words/commit/c66759a0ffdc8411cdaec5c8dcfcf382cb90fa27))
+* **locale:** add support to pt-BR locale ([b4061ef](https://github.com/EslavaDev/to-words/commit/b4061ef0f55091e2fcea2834e893f1c14c860ce4))
+* refactor and add new languages ([#526](https://github.com/EslavaDev/to-words/issues/526)) ([0dc9c10](https://github.com/EslavaDev/to-words/commit/0dc9c10d457982ea190fb127bb698f5307b23ffe))
+* support added for french (fr-FR) ([#512](https://github.com/EslavaDev/to-words/issues/512)) ([ae19f85](https://github.com/EslavaDev/to-words/commit/ae19f850f6a37f36cd12267ee2177adc8510e098))
+* support mex and peru ([08a0cc9](https://github.com/EslavaDev/to-words/commit/08a0cc9f6ed4396836a6c4ea1b9b23816475a556))
+
+
+### Bug Fixes
+
+* add build files ([3c7b7e8](https://github.com/EslavaDev/to-words/commit/3c7b7e8f0fe7a3f08dc853a93f7ee5210d1b1f61))
+* add dist ([ca7e4c9](https://github.com/EslavaDev/to-words/commit/ca7e4c915cb6b393e50b941f6fd3a5cfd1186463))
+* add includes of ignore one for words ([a289892](https://github.com/EslavaDev/to-words/commit/a2898923e96a7dfbbde8518d6d794014bb81ba88))
+* Added PH entry ([e26d507](https://github.com/EslavaDev/to-words/commit/e26d507cb9ef5f43dfc00d0b2ce094f0bad209b7))
+* build & add code for en-MU ([6e01b2b](https://github.com/EslavaDev/to-words/commit/6e01b2b0b1bbb04ff94e9f82daad723f03628100))
+* change MMK to follow US numeral systems ([#265](https://github.com/EslavaDev/to-words/issues/265)) ([a37d6f6](https://github.com/EslavaDev/to-words/commit/a37d6f6f6012d6abb1627d6fdacb34f5dd62ecc8))
+* generate build ([6d08e8a](https://github.com/EslavaDev/to-words/commit/6d08e8aaee3e55cbbab211894a87722254a7fe50))
+* **impl:** include file ([004fe95](https://github.com/EslavaDev/to-words/commit/004fe95ffd9ea0e34a26f92b8a21124541f02cdf))
+* lint rules ([74bfb9c](https://github.com/EslavaDev/to-words/commit/74bfb9c8b91eda02dbcde9596b61d9de67737355))
+* remove deepsource config ([0ae7a59](https://github.com/EslavaDev/to-words/commit/0ae7a59cd2058225eae44dabb4031737ba47de79))
+
+
+* Rewrite in TypeScript with enahcements ([c797382](https://github.com/EslavaDev/to-words/commit/c7973825b756fea45313219a6e504472666da248))
+
 ### [3.6.1](https://github.com/mastermunj/to-words/compare/v3.6.0...v3.6.1) (2023-06-27)
 
 
